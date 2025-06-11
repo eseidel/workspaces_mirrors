@@ -4,6 +4,11 @@ The analyzer seems to get into a "mirrors OK" or "mirrors not OK" mode and
 with workspaces the latter wins out if Flutter is included, thus causing
 (spurious) analysis errors for other parts of the mono repo that do use mirrors.
 
+This is using:
+```
+Dart SDK version: 3.8.1 (stable) (Wed May 28 00:47:25 2025 -0700) on "macos_arm64"
+```
+
 ```
  dart analyze .
 Analyzing ....                         0.9s
