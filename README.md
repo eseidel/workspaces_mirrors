@@ -1,5 +1,7 @@
 # Workspaces that include a Flutter app cannot also use dart:mirrors.
 
+Filed as https://github.com/dart-lang/sdk/issues/60888.
+
 The analyzer seems to get into a "mirrors OK" or "mirrors not OK" mode and
 with workspaces the latter wins out if Flutter is included, thus causing
 (spurious) analysis errors for other parts of the mono repo that do use mirrors.
