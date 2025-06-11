@@ -4,6 +4,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
+# If you remove app from the workspace, then you no longer get analysis errors
+# for dart:mirrors in the cli package.
 resolution: workspace
 
 environment:
